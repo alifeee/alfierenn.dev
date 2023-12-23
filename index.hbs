@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{#with copy}}
+  <head>
+    {{#with browser-meta}}
+    <title>{{tabtitle}}</title>
+    <!-- browser metas -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{description}}" />
+
+    <!-- embed metas - https://ogp.me/ -->
+    <meta property="og:title" content="{{og-title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{og-url}}" />
+    <meta property="og:image" content="{{og-image}}" />
+    <meta
+      property="og:description"
+      content="{{og-description}}"
+    />
+    <meta property="og:locale" content="en_GB" />
+    {{/with}}
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      {{#with image}}
+      <img
+        src="{{src}}"
+        alt="{{alt}}"
+        width="{{width}}px"
+        height="{{height}}px"
+      />
+      {{/with}}
+      <h1>{{name}}, {{subtitle}}</h1>
+      <a href="mailto:{{email}}">{{email}}</a>
+    </header>
+    <main>
+      <section class="wwwww">
+        {{#each wwwww}}
+        <article>
+          <h2 id="{{@key}}">{{@key}}</h2>
+          <span>{{question}}</span>
+          <p>{{text}}</p>
+        </article>
+        {{/each}}
+      </section>
+      <h2 id="portfolio">Websites I've made</h2>
+      <section class="portfolio">
+        {{#each portfolio.sites}}
+        <article>
+          <h3>{{title}}</h3>
+          <p>{{description}}</p>
+          {{#if link}}
+          <a href="{{link}}">{{link}}</a>
+          {{/if}}
+          <div class="tools">
+            {{#each tools}}
+            <span>{{this}}</span>
+            {{/each}}
+          </div>
+        </article>
+        {{/each}}
+      </section>
+      <h2 id="testimonials">Testimonials</h2>
+      <section class="testimonials">
+        {{#each testimonials}}
+        <article>
+          <p>{{text}}</p>
+          <span>{{quoter}}</span>, <span>{{source}}</span>
+        </article>
+        {{/each}}
+      </section>
+    </main>
+    <footer>
+      <h2 id="contact">Contact</h2>
+      <section class="Contact">
+        <a href="mailto:{{email}}">{{email}}</a>
+      </section>
+    </footer>
+  </body>
+  {{/with}}
+</html>
