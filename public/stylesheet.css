@@ -1,3 +1,17 @@
+/* fonts */
+@font-face {
+  font-family: "BogFace";
+  src: url("/fonts/BogFace.woff");
+}
+@font-face {
+  font-family: "Hockey";
+  src: url("/fonts/hockey.woff");
+}
+@font-face {
+  font-family: "BoringBoron";
+  src: url("/fonts/boringboron.woff");
+}
+
 /* generic styles */
 * {
   box-sizing: border-box;
@@ -8,15 +22,37 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #6fbcb7;
+  font-family: "BoringBoron", sans-serif;
 }
 
 /* header */
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
 header img {
   height: 20rem;
   width: 20rem;
   border-radius: 50%;
-  margin: 1rem;
+  margin: 0 1rem;
+}
+header .name {
+  display: block;
+  text-align: center;
+  font-family: "BogFace", sans-serif;
+  font-size: 3em;
+  margin: 1rem 0 0;
+}
+header .subtitle {
+  display: block;
+  text-align: center;
+  font-family: "BoringBoron", sans-serif;
+  font-size: 2em;
+  margin: 0 0 1rem;
 }
 
 /* main */
@@ -24,14 +60,18 @@ header img {
 /* WWWWW */
 
 .wwwww {
+  margin: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
-
 .wwwww article {
   flex: 1 0 15rem;
   border: 1px solid #ccc;
   border-radius: 1rem;
+}
+.wwwww h2 {
+  text-transform: uppercase;
+  font-family: "BogFace", sans-serif;
 }
 
 /* portfolio */
@@ -39,8 +79,8 @@ header img {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem;
 }
-
 .portfolio article {
   flex: 1 0 15rem;
   border: 1px solid #ccc;
