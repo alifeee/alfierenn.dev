@@ -1,0 +1,82 @@
+# copy for website
+
+name = "Alfie Renn"
+subtitle = "dev"
+email = "alfie@alfierenn.dev"
+
+[browser-meta]
+tabtitle = "Alfie Renn"
+description = "Alfie Renn's developer portfolio"
+og-title = "Alfie Renn's developer portfolio"
+og-description = "Alfie Renn's developer portfolio"
+og-url = "https://alfierenn.dev"
+og-image = "https://alfierenn.dev/og-image.png"
+
+[image]
+src = "/alfie-renn-headshot.png"
+alt = "headshot of Alfie Renn"
+width = 800
+height = 800
+
+[wwwww.who]
+text = "Alfie Renn"
+question = "am I?"
+[wwwww.what]
+text = "develop"
+question = "do I do?"
+[wwwww.where]
+text = "Sheffield"
+question = "can you find me?"
+[wwwww.when]
+text = "now!"
+question = "can I do what you want?"
+[wwwww.why]
+text = "I love it"
+question = "do I do what I do?"
+[wwwww.how]
+text = "with vim"
+question = "will I do what you want?"
+
+[[portfolio.sites]]
+title = "lipu tenpo website"
+description = "A website for a community made magazine"
+tools = ["Eleventy", "HTML", "CSS", "JS"]
+link = "https://liputenpo.alifeee.co.uk"
+[[portfolio.sites]]
+title = "personal blog"
+description = "Static site with interactive comments and automated components, including filtering tags, reading time, and suggested posts"
+link = "https://blog.alifeee.co.uk"
+tools = ["HTML", "CSS", "JS"]
+[[portfolio.sites]]
+title = "Embedded lighting controller (web app)"
+description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
+tools = ["Vue", "HTML", "CSS", "JS"]
+[[portfolio.sites]]
+title = "CV"
+description = "My CV on the web, with automatic deployment, version control, and responsive design"
+tools = ["HTML", "CSS", "JS"]
+link = "https://cv.alfierenn.dev"
+[[portfolio.sites]]
+title = "Physics Society Webpage"
+description = "Responsive and easy to edit website for the Durham University Physics Society"
+tools = ["HTML", "CSS", "JS"]
+link = "https://alifeee.co.uk/physsoc"
+[[portfolio.sites]]
+title = "Annual Leave Visualiser (web app)"
+description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files."
+tools = ["Flutter"]
+
+[[testimonials]]
+text = "[... W]e were very impressed with [Alfie]'s outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
+quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
+source = "Viper RF"
+[[testimonials]]
+text = "This is very neat thank you for this contribution."
+quoter = "Alexandre Lavigne"
+source = "open-source pull request"
+url = "https://github.com/burnash/gspread/pull/1187#pullrequestreview-1451621771"
+[[testimonials]]
+text = "Thanks @strib and. @alifeee - very good team work!!!!"
+quoter = "Romano Silva"
+source = "open-source pull request"
+url = "https://github.com/keyteki/keyteki/pull/3222#issuecomment-1589734669"
