@@ -1,7 +1,7 @@
 # copy for website
 
 name = "Alfie Renn"
-subtitle = "dev"
+subtitle = "developer"
 email = "alfie@alfierenn.dev"
 
 [browser-meta]
@@ -39,7 +39,7 @@ question = "will I do what you want?"
 
 [[portfolio.sites]]
 title = "lipu tenpo website"
-description = "A website for a community made magazine"
+description = "A content hosting website for a community made magazine"
 tools = ["Eleventy", "HTML", "CSS", "JS"]
 link = "https://liputenpo.alifeee.co.uk"
 [[portfolio.sites]]
