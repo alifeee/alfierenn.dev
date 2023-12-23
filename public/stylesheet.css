@@ -1,0 +1,79 @@
+/* generic styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header */
+
+header img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+/* main */
+
+/* WWWWW */
+
+.wwwww {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wwwww article {
+  flex: 1 0 15rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+/* portfolio */
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio article {
+  flex: 1 0 15rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+.portfolio article .tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+/* testimonials */
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonials article {
+  flex: 1 0 15rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 10rem;
+}
+
+/* contact */
