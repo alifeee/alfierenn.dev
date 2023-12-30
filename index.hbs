@@ -56,10 +56,10 @@
         {{#each portfolio.sites}}
         <article>
           <h3>{{title}}</h3>
-          <p>{{description}}</p>
           {{#if link}}
-          <a href="{{link}}">{{link}}</a>
+          <a target="_blank" href="{{link}}">{{niceLink link}}</a>
           {{/if}}
+          <p>{{description}}</p>
           <div class="tools">
             {{#each tools}}
             <span>{{this}}</span>
@@ -73,7 +73,8 @@
         {{#each testimonials}}
         <article>
           <p>{{text}}</p>
-          <span>{{quoter}}</span>, <span>{{source}}</span>
+          <span class="quoter">{{quoter}},</span>
+          <span class="source">{{source}}</span>
         </article>
         {{/each}}
       </section>

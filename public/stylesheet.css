@@ -12,6 +12,16 @@
   src: url("/fonts/boringboron.woff");
 }
 
+/* colours */
+:root {
+  --background: #4a1847;
+  --primary: #443169;
+  --secondary: #6c4bad;
+  --text: #fff;
+  --text-secondary: #ccc;
+  --link-color: #ff5;
+}
+
 /* generic styles */
 * {
   box-sizing: border-box;
@@ -22,8 +32,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #6fbcb7;
+  background-color: var(--background);
+  color: var(--text);
   font-family: "BoringBoron", sans-serif;
+}
+a {
+  color: var(--link-color);
 }
 
 /* header */
@@ -66,16 +80,43 @@ header .subtitle {
 }
 .wwwww article {
   flex: 1 0 15rem;
-  border: 1px solid #ccc;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: justify;
+  background-color: var(--primary);
+  box-shadow: 0 0 3px 1px var(--secondary);
 }
 .wwwww h2 {
   text-transform: uppercase;
   font-family: "BogFace", sans-serif;
+  font-size: 2em;
+  margin: 1rem 0 0;
+}
+.wwwww span {
+  margin: 0 0 1rem;
+  color: var(--text-secondary);
+}
+.wwwww span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--text-secondary);
+}
+.wwwww p {
+  margin: 0 0 1rem;
 }
 
 /* portfolio */
 
+#portfolio {
+  margin: 3rem 1rem 1rem;
+  text-align: center;
+}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -83,27 +124,69 @@ header .subtitle {
 }
 .portfolio article {
   flex: 1 0 15rem;
-  border: 1px solid #ccc;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  background-color: var(--primary);
+  box-shadow: 0 0 3px 1px var(--secondary);
+}
+.portfolio article h3 {
+  margin: 1rem 0 0.5rem;
+}
+.portfolio article a {
+  display: block;
+  margin: 0 0;
+}
+.portfolio article p {
+  margin: 0.5rem 0;
 }
 .portfolio article .tools {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+.portfolio .tools span {
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--secondary);
 }
 
 /* testimonials */
 
+#testimonials {
+  margin: 3rem 1rem 1rem;
+  text-align: center;
+}
 .testimonials {
   display: flex;
   flex-wrap: wrap;
 }
-
 .testimonials article {
   flex: 1 0 15rem;
-  border: 1px solid #ccc;
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  background-color: var(--primary);
+  box-shadow: 0 0 3px 1px var(--secondary);
+}
+.testimonials article p {
+  font-family: "Hockey", sans-serif;
+  font-size: 1.5em;
+}
+.testimonials article .quoter,
+.testimonials article .source {
+  color: var(--text-secondary);
+  font-size: 1em;
 }
 
 /* footer */

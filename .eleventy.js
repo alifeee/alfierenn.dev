@@ -7,4 +7,10 @@ module.exports = function (eleventyConfig) {
 
   // parse TOML files
   eleventyConfig.addDataExtension("toml", (contents) => toml.parse(contents));
+
+  // strip https from url
+  eleventyConfig.addHandlebarsHelper(
+    "niceLink",
+    (url) => url && url.replace(/^https?:\/\//, "")
+  );
 };
