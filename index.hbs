@@ -74,15 +74,28 @@
         <article>
           <p>{{text}}</p>
           <span class="quoter">{{quoter}},</span>
+          {{#if link}}
+          <a target="_blank" href="{{link}}"><span class="source">{{source}}</span></a>
+          {{else}}
           <span class="source">{{source}}</span>
+          {{/if}}
         </article>
         {{/each}}
       </section>
     </main>
     <footer>
       <h2 id="contact">Contact</h2>
-      <section class="Contact">
-        <a href="mailto:{{email}}">{{email}}</a>
+      <section class="contact">
+        <div class="email">
+          <span>email: </span>
+          <a href="mailto:{{email}}">{{email}}</a>
+        </div>
+        <div class="github">
+          <span>github: </span>
+          <a target="_blank" href="https://github.com/{{github}}">
+            {{github}}
+          </a>
+        </div>
       </section>
     </footer>
   </body>

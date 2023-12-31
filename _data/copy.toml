@@ -1,8 +1,9 @@
 # copy for website
 
 name = "Alfie Renn"
-subtitle = "developer"
+subtitle = "web developer"
 email = "alfie@alfierenn.dev"
+github = "alifeee"
 
 [browser-meta]
 tabtitle = "Alfie Renn"
@@ -38,12 +39,12 @@ question = "will I do what you want?"
 text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together!"
 
 [[portfolio.sites]]
-title = "lipu tenpo website"
+title = "lipu tenpo Website"
 description = "A content hosting website for a community made magazine"
-tools = ["Eleventy", "HTML", "CSS", "JS"]
+tools = ["Eleventy", "HTML/CSS/JS"]
 link = "https://liputenpo.alifeee.co.uk"
 [[portfolio.sites]]
-title = "personal blog"
+title = "Personal Blog"
 description = "Static site with interactive comments and automated components, including filtering tags, reading time, and suggested posts"
 link = "https://blog.alifeee.co.uk"
 tools = ["HTML", "CSS", "JS"]
@@ -67,16 +68,17 @@ description = "Web app to visualist when employees had holidays booked, showing 
 tools = ["Flutter"]
 
 [[testimonials]]
-text = "[... W]e were very impressed with [Alfie]'s outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
-quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
-source = "Viper RF"
-[[testimonials]]
 text = "This is very neat thank you for this contribution."
 quoter = "Alexandre Lavigne"
 source = "open-source pull request"
-url = "https://github.com/burnash/gspread/pull/1187#pullrequestreview-1451621771"
+link = "https://github.com/burnash/gspread/pull/1187#pullrequestreview-1451621771"
+[[testimonials]]
+text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
+quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
+source = "Viper RF"
+link = "https://www.viper-rf.com/"
 [[testimonials]]
 text = "Thanks @strib and. @alifeee - very good team work!!!!"
 quoter = "Romano Silva"
 source = "open-source pull request"
-url = "https://github.com/keyteki/keyteki/pull/3222#issuecomment-1589734669"
+link = "https://github.com/keyteki/keyteki/pull/3222#issuecomment-1589734669"

@@ -15,8 +15,10 @@
 /* colours */
 :root {
   --background: #4a1847;
+  --background-alt: #551f4f;
   --primary: #443169;
   --secondary: #6c4bad;
+  --shadow: 0 0 5px 3px #0005;
   --text: #fff;
   --text-secondary: #ccc;
   --link-color: #ff5;
@@ -35,6 +37,14 @@ body {
   background-color: var(--background);
   color: var(--text);
   font-family: "BoringBoron", sans-serif;
+
+  background: repeating-linear-gradient(
+    54deg,
+    var(--background-alt),
+    var(--background-alt) 2px,
+    var(--background) 2px,
+    var(--background) 15px
+  );
 }
 a {
   color: var(--link-color);
@@ -53,6 +63,7 @@ header img {
   width: 20rem;
   border-radius: 50%;
   margin: 0 1rem;
+  box-shadow: var(--shadow);
 }
 header .name {
   display: block;
@@ -67,6 +78,7 @@ header .subtitle {
   font-family: "BoringBoron", sans-serif;
   font-size: 2em;
   margin: 0 0 1rem;
+  color: var(--text-secondary);
 }
 
 /* main */
@@ -77,18 +89,20 @@ header .subtitle {
   margin: 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .wwwww article {
   flex: 1 0 15rem;
+  max-width: 50rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0.5rem;
   padding: 0 1rem 1rem;
-  text-align: justify;
+  text-align: center;
   background-color: var(--primary);
-  box-shadow: 0 0 3px 1px var(--secondary);
+  box-shadow: var(--shadow);
 }
 .wwwww h2 {
   text-transform: uppercase;
@@ -120,10 +134,12 @@ header .subtitle {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 1rem;
 }
 .portfolio article {
-  flex: 1 0 15rem;
+  flex: 1 0 20rem;
+  max-width: 50rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -132,7 +148,7 @@ header .subtitle {
   padding: 0 1rem 1rem;
   text-align: center;
   background-color: var(--primary);
-  box-shadow: 0 0 3px 1px var(--secondary);
+  box-shadow: var(--shadow);
 }
 .portfolio article h3 {
   margin: 1rem 0 0.5rem;
@@ -148,10 +164,10 @@ header .subtitle {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 0.5rem;
+  margin: auto 0 0;
 }
-.portfolio .tools span {
-  margin: 0 0.25rem;
+.portfolio article .tools span {
+  margin: 0.25rem 0.25rem;
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   background-color: var(--secondary);
@@ -173,11 +189,12 @@ header .subtitle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0.5rem;
   padding: 0 1rem 1rem;
   text-align: center;
   background-color: var(--primary);
-  box-shadow: 0 0 3px 1px var(--secondary);
+  box-shadow: var(--shadow);
 }
 .testimonials article p {
   font-family: "Hockey", sans-serif;
@@ -200,3 +217,15 @@ footer {
 }
 
 /* contact */
+#contact {
+  margin: 3rem 1rem 1rem;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact > *:first-child {
+  margin: 0 0 1rem;
+}
