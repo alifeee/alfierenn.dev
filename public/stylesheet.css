@@ -2,14 +2,17 @@
 @font-face {
   font-family: "BogFace";
   src: url("/fonts/BogFace.woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "Hockey";
   src: url("/fonts/hockey.woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "BoringBoron";
   src: url("/fonts/boringboron.woff");
+  font-display: swap;
 }
 
 /* colours */
