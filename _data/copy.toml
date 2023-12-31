@@ -27,16 +27,16 @@ question = "do I do?"
 text = "I make websites, I make software, and I make good decisions. I know web fundamentals inside-out. As for tools, I use Eleventy, a robust and extendible static-site generator; I use Vue, a powerful front-end framework; and I use Python to suuplement my work, with powerful scripting."
 [wwwww.where]
 question = "can you find me?"
-text = "Usually around GitHub..! Or many more places across the web. But, right here on this website is your literal answer."
+text = "Usually around GitHub..! Or many more places across the web. But, your literal answer is... right here on this website!"
 [wwwww.when]
 question = "can I do what you want?"
-text = "Likely soon! Send me an email on <a href='mailto:alfie@alfierenn.dev'>alfie@alfierenn.dev</a>, and I can let you know my availability!"
+text = "Likely soon! Send me an email → <a href='mailto:alfie@alfierenn.dev'>alfie@alfierenn.dev</a>, and we can take it from there."
 [wwwww.why]
 question = "do I do what I do?"
-text = "I love the Internet! I think it is such a great opportunity that we have it. I think the ability to make stuff that is easily shared on the web should be accessible to anyone and everyone, and I respect this view when I make things for the Internet by making them as simple and robust as possible."
+text = "I love the Internet! I think it is such a great opportunity that we have it. I think the ability to make stuff that is easily shared on the web should be accessible to anyone and everyone, and respect this view when I make things for the Internet by making them as simple and robust as possible."
 [wwwww.how]
 question = "will I do what you want?"
-text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together!"
+text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together :)"
 
 [[portfolio.sites]]
 title = "lipu tenpo Website"
