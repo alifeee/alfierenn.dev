@@ -30,12 +30,14 @@
   <body>
     <header>
       {{#with image}}
-      <img
+      {{!-- <img
+        class="image"
         src="{{src}}"
         alt="{{alt}}"
         width="{{width}}px"
         height="{{height}}px"
-      />
+      /> --}}
+      <div class="image" style="--i:url({{src}})"></div>
       {{/with}}
       <h1 class="name">{{name}}</h1>
       <h2 class="subtitle">{{subtitle}}</h2>
@@ -44,48 +46,48 @@
     <main>
       <section id="wwwww">
         <div class="wwwww">
-        {{#each wwwww}}
-        <article>
-          <h2 id="{{@key}}">{{@key}}</h2>
-          <span>{{question}}</span>
-          <p>{{{text}}}</p>
-        </article>
-        {{/each}}
+          {{#each wwwww}}
+          <article>
+            <h2 id="{{@key}}">{{@key}}</h2>
+            <span>{{question}}</span>
+            <p>{{{text}}}</p>
+          </article>
+          {{/each}}
         </div>
       </section>
       <section id="portfolio">
         <h2>Websites I've made</h2>
         <div class="portfolio">
-        {{#each portfolio.sites}}
-        <article>
-          <h3>{{title}}</h3>
-          {{#if link}}
-          <a target="_blank" href="{{link}}">{{niceLink link}}</a>
-          {{/if}}
-          <p>{{description}}</p>
-          <div class="tools">
-            {{#each tools}}
-            <span>{{this}}</span>
-            {{/each}}
-          </div>
-        </article>
-        {{/each}}
+          {{#each portfolio.sites}}
+          <article>
+            <h3>{{title}}</h3>
+            {{#if link}}
+            <a target="_blank" href="{{link}}">{{niceLink link}}</a>
+            {{/if}}
+            <p>{{description}}</p>
+            <div class="tools">
+              {{#each tools}}
+              <span>{{this}}</span>
+              {{/each}}
+            </div>
+          </article>
+          {{/each}}
         </div>
       </section>
       <section id="testimonials">
         <h2>Testimonials</h2>
         <div class="testimonials">
-        {{#each testimonials}}
-        <article>
-          <p>{{text}}</p>
-          <span class="quoter">{{quoter}},</span>
-          {{#if link}}
-          <a target="_blank" href="{{link}}"><span class="source">{{source}}</span></a>
-          {{else}}
-          <span class="source">{{source}}</span>
-          {{/if}}
-        </article>
-        {{/each}}
+          {{#each testimonials}}
+          <article>
+            <p>{{text}}</p>
+            <span class="quoter">{{quoter}},</span>
+            {{#if link}}
+            <a target="_blank" href="{{link}}"><span class="source">{{source}}</span></a>
+            {{else}}
+            <span class="source">{{source}}</span>
+            {{/if}}
+          </article>
+          {{/each}}
         </div>
       </section>
     </main>
