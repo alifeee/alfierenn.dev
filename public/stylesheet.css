@@ -183,11 +183,38 @@ header .subtitle {
 /* portfolio */
 
 #portfolio {
-  /* background-color: green; */
-  padding-top: 3rem;
+  background-color: #485baf;
+  margin-top: 3rem;
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+#portfolio::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  background-image: url("/bumps.svg");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+#portfolio::after {
+  content: "";
+  width: 100%;
+  height: 30px;
+  background-image: url("/bumps.svg");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(180deg);
 }
 #portfolio h2 {
-  margin: 0 1rem 1rem;
+  margin: 1rem;
   text-align: center;
 }
 .portfolio {
