@@ -16,10 +16,11 @@ module.exports = function (eleventyConfig) {
     (url) => url && url.replace(/^https?:\/\//, "")
   );
 
-  // CSS partial for inlining
-  //  load css from file
-  const css = fs.readFileSync("public/stylesheet.css", "utf8");
-  handlebars.registerPartial("css", css);
+  // CSS partial for inlining -> load css from file
+  handlebars.registerHelper("css", (file) => {
+    const css = fs.readFileSync(`./public/${file}`, "utf8");
+    return new handlebars.SafeString(css);
+  });
 
   eleventyConfig.setLibrary("hbs", handlebars);
 };
