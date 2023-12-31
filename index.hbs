@@ -25,9 +25,16 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
 
     <!-- stylesheets -->
+    {{!-- hot reload doesn't work with inline styles --}}
+    {{#if (serve)}}
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <link rel="stylesheet" href="/star.css" />
+    {{else}}
     <style>
-      {{css "stylesheet.css"}}
+      {{cssmin "stylesheet.css"}}
+      {{cssmin "star.css"}}
     </style>
+    {{/if}}
 
     <!-- scripts -->
     <script data-goatcounter="https://alfierenndev.goatcounter.com/count"
@@ -36,14 +43,13 @@
   <body>
     <header>
       {{#with image}}
-      {{!-- <img
+      <img
         class="image"
         src="{{src}}"
         alt="{{alt}}"
         width="{{width}}px"
         height="{{height}}px"
-      /> --}}
-      <div class="image" style="--i:url({{src}})"></div>
+      />
       {{/with}}
       <h1 class="name">{{name}}</h1>
       <h2 class="subtitle">{{subtitle}}</h2>
