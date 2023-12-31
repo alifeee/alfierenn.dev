@@ -1,0 +1,326 @@
+/* fonts */
+@font-face {
+  font-family: "BogFace";
+  src: url("/fonts/BogFace.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hockey";
+  src: url("/fonts/hockey.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "BoringBoron";
+  src: url("/fonts/boringboron.woff");
+  font-display: swap;
+}
+
+/* colours */
+:root {
+  --background: #4a1847;
+  --background-alt: #551f4f;
+  --primary: #443169;
+  --secondary: #6c4bad;
+  --shadow: 0 0 5px 3px #0005;
+  --text: #fff;
+  --text-secondary: #ccc;
+  --link-color: #ff5;
+}
+
+/* generic styles */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "BoringBoron", sans-serif;
+
+  background: repeating-linear-gradient(
+    54deg,
+    var(--background-alt),
+    var(--background-alt) 2px,
+    var(--background) 2px,
+    var(--background) 15px
+  );
+}
+a {
+  color: var(--link-color);
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+header .image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+  clip-path: polygon(
+    100% 50%,
+    87.59% 63.68%,
+    88.3% 82.14%,
+    70% 84.64%,
+    58.68% 99.24%,
+    43.05% 89.39%,
+    25% 93.3%,
+    19.36% 75.71%,
+    3.02% 67.1%,
+    10% 50%,
+    3.02% 32.9%,
+    19.36% 24.29%,
+    25% 6.7%,
+    43.05% 10.61%,
+    58.68% 0.76%,
+    70% 15.36%,
+    88.3% 17.86%,
+    87.59% 36.32%,
+    100% 50%
+  );
+  animation: spin 120s linear infinite;
+  position: relative;
+  overflow: hidden;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(1.02);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(270deg) scale(0.98);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+header .image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--i);
+  background-size: cover;
+  background-position: center;
+  animation: inherit;
+  animation-direction: reverse;
+}
+
+header .name {
+  display: block;
+  text-align: center;
+  font-family: "BogFace", sans-serif;
+  font-size: 3em;
+  margin: 1rem 0 0;
+}
+header .subtitle {
+  display: block;
+  text-align: center;
+  font-family: "BoringBoron", sans-serif;
+  font-size: 2em;
+  margin: 0 0 1rem;
+  color: var(--text-secondary);
+}
+
+/* main */
+
+/* WWWWW */
+
+#wwwww {
+  /* background-color: blue; */
+}
+
+.wwwww {
+  margin: 1rem 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wwwww article {
+  flex: 1 0 15rem;
+  max-width: 50rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+}
+.wwwww h2 {
+  text-transform: uppercase;
+  font-family: "BogFace", sans-serif;
+  font-size: 2em;
+  margin: 1rem 0 0;
+}
+.wwwww span {
+  margin: 0 0 1rem;
+  color: var(--text-secondary);
+}
+.wwwww span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--text-secondary);
+}
+.wwwww p {
+  margin: 0 0 1rem;
+}
+
+/* portfolio */
+
+#portfolio {
+  background-color: #485baf;
+  margin-top: 3rem;
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+#portfolio::before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  background-image: url("/bumps.svg");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+#portfolio::after {
+  content: "";
+  width: 100%;
+  height: 30px;
+  background-image: url("/bumps.svg");
+  background-size: auto;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  transform: rotate(180deg);
+}
+#portfolio h2 {
+  margin: 1rem;
+  text-align: center;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 1rem;
+}
+.portfolio article {
+  flex: 1 0 20rem;
+  max-width: 50rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+}
+.portfolio article h3 {
+  margin: 1rem 0 0.5rem;
+}
+.portfolio article a {
+  display: block;
+  margin: 0 0;
+}
+.portfolio article p {
+  margin: 0.5rem 0;
+}
+.portfolio article .tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto 0 0;
+}
+.portfolio article .tools span {
+  margin: 0.25rem 0.25rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--secondary);
+}
+
+/* testimonials */
+
+#testimonials {
+  /* background-color: red; */
+  padding-top: 3rem;
+}
+#testimonials h2 {
+  margin: 0 1rem 1rem;
+  text-align: center;
+}
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonials article {
+  flex: 1 0 15rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  background-color: var(--primary);
+  box-shadow: var(--shadow);
+}
+.testimonials article p {
+  font-family: "Hockey", sans-serif;
+  font-size: 1.5em;
+}
+.testimonials article .quoter,
+.testimonials article .source {
+  color: var(--text-secondary);
+  font-size: 1em;
+}
+
+/* footer */
+
+footer {
+  /* background-color: pink; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+  padding-bottom: 10rem;
+}
+
+/* contact */
+#contact {
+  margin: 3rem 1rem 1rem;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact > *:first-child {
+  margin: 0 0 1rem;
+}

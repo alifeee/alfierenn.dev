@@ -1,0 +1,84 @@
+# copy for website
+
+name = "Alfie Renn"
+subtitle = "web developer"
+email = "alfie@alfierenn.dev"
+github = "alifeee"
+
+[browser-meta]
+tabtitle = "Alfie Renn"
+description = "Alfie Renn's developer portfolio"
+og-title = "Alfie Renn's developer portfolio"
+og-description = "Alfie Renn's developer portfolio"
+og-url = "https://alfierenn.dev"
+og-image = "https://alfierenn.dev/og-image.png"
+
+[image]
+src = "/alfie-renn-headshot.jpg"
+alt = "headshot of Alfie Renn"
+width = 800
+height = 800
+
+[wwwww.who]
+question = "am I?"
+text = "Alfie Renn! I am UK-based, and currently living in Sheffield. I am an enthusiastic and experimental technophile, who loves to see what forces for good are possible using technology."
+[wwwww.what]
+question = "do I do?"
+text = "I make websites, I make software, and I make good decisions. I know web fundamentals inside-out. As for tools, I use Eleventy, a robust and extendible static-site generator; I use Vue, a powerful front-end framework; and I use Python to suuplement my work, with powerful scripting."
+[wwwww.where]
+question = "can you find me?"
+text = "Usually around GitHub..! Or many more places across the web. But, your literal answer is... right here on this website!"
+[wwwww.when]
+question = "can I do what you want?"
+text = "Likely soon! Send me an email → <a href='mailto:alfie@alfierenn.dev'>alfie@alfierenn.dev</a>, and we can take it from there."
+[wwwww.why]
+question = "do I do what I do?"
+text = "I love the Internet! I think it is such a great opportunity that we have it. I think the ability to make stuff that is easily shared on the web should be accessible to anyone and everyone, and respect this view when I make things for the Internet by making them as simple and robust as possible."
+[wwwww.how]
+question = "will I do what you want?"
+text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together :)"
+
+[[portfolio.sites]]
+title = "lipu tenpo Website"
+description = "A content hosting website for a community made magazine"
+tools = ["Eleventy", "HTML/CSS/JS"]
+link = "https://liputenpo.alifeee.co.uk"
+[[portfolio.sites]]
+title = "Personal Blog"
+description = "Static site with interactive comments and automated components, including filtering tags, reading time, and suggested posts"
+link = "https://blog.alifeee.co.uk"
+tools = ["HTML", "CSS", "JS"]
+[[portfolio.sites]]
+title = "Embedded lighting controller (web app)"
+description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
+tools = ["Vue", "HTML", "CSS", "JS"]
+[[portfolio.sites]]
+title = "CV"
+description = "My CV on the web, with automatic deployment, version control, and responsive design"
+tools = ["HTML", "CSS", "JS"]
+link = "https://cv.alfierenn.dev"
+[[portfolio.sites]]
+title = "Physics Society Webpage"
+description = "Responsive and easy to edit website for the Durham University Physics Society"
+tools = ["HTML", "CSS", "JS"]
+link = "https://alifeee.co.uk/physsoc"
+[[portfolio.sites]]
+title = "Annual Leave Visualiser (web app)"
+description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files."
+tools = ["Flutter"]
+
+[[testimonials]]
+text = "This is very neat thank you for this contribution."
+quoter = "Alexandre Lavigne"
+source = "open-source pull request"
+link = "https://github.com/burnash/gspread/pull/1187#pullrequestreview-1451621771"
+[[testimonials]]
+text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
+quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
+source = "Viper RF"
+link = "https://www.viper-rf.com/"
+[[testimonials]]
+text = "Thanks @strib and. @alifeee - very good team work!!!!"
+quoter = "Romano Silva"
+source = "open-source pull request"
+link = "https://github.com/keyteki/keyteki/pull/3222#issuecomment-1589734669"

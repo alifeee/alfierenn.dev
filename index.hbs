@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{#with copy}}
+  <head>
+    {{#with browser-meta}}
+    <title>{{tabtitle}}</title>
+    <!-- browser metas -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{description}}" />
+
+    <!-- embed metas - https://ogp.me/ -->
+    <meta property="og:title" content="{{og-title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{og-url}}" />
+    <meta property="og:image" content="{{og-image}}" />
+    <meta
+      property="og:description"
+      content="{{og-description}}"
+    />
+    <meta property="og:locale" content="en_GB" />
+    {{/with}}
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- stylesheets -->
+    <style>{{> css}}</style>
+
+    <!-- scripts -->
+    <script data-goatcounter="https://alfierenndev.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  </head>
+  <body>
+    <header>
+      {{#with image}}
+      {{!-- <img
+        class="image"
+        src="{{src}}"
+        alt="{{alt}}"
+        width="{{width}}px"
+        height="{{height}}px"
+      /> --}}
+      <div class="image" style="--i:url({{src}})"></div>
+      {{/with}}
+      <h1 class="name">{{name}}</h1>
+      <h2 class="subtitle">{{subtitle}}</h2>
+      <a href="mailto:{{email}}">{{email}}</a>
+    </header>
+    <main>
+      <section id="wwwww">
+        <div class="wwwww">
+          {{#each wwwww}}
+          <article>
+            <h2 id="{{@key}}">{{@key}}</h2>
+            <span>{{question}}</span>
+            <p>{{{text}}}</p>
+          </article>
+          {{/each}}
+        </div>
+      </section>
+      <section id="portfolio">
+        <h2>Websites I've made</h2>
+        <div class="portfolio">
+          {{#each portfolio.sites}}
+          <article>
+            <h3>{{title}}</h3>
+            {{#if link}}
+            <a target="_blank" href="{{link}}">{{niceLink link}}</a>
+            {{/if}}
+            <p>{{description}}</p>
+            <div class="tools">
+              {{#each tools}}
+              <span>{{this}}</span>
+              {{/each}}
+            </div>
+          </article>
+          {{/each}}
+        </div>
+      </section>
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+          {{#each testimonials}}
+          <article>
+            <p>{{text}}</p>
+            <span class="quoter">{{quoter}},</span>
+            {{#if link}}
+            <a target="_blank" href="{{link}}"><span class="source">{{source}}</span></a>
+            {{else}}
+            <span class="source">{{source}}</span>
+            {{/if}}
+          </article>
+          {{/each}}
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2 id="contact">Contact</h2>
+      <section class="contact">
+        <div class="email">
+          <span>email: </span>
+          <a href="mailto:{{email}}">{{email}}</a>
+        </div>
+        <div class="github">
+          <span>github: </span>
+          <a target="_blank" href="https://github.com/{{github}}">
+            {{github}}
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+  {{/with}}
+</html>
