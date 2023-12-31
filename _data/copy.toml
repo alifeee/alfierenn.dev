@@ -24,7 +24,7 @@ question = "am I?"
 text = "Alfie Renn! I am UK-based, and currently living in Sheffield. I am an enthusiastic and experimental technophile, who loves to see what forces for good are possible using technology."
 [wwwww.what]
 question = "do I do?"
-text = "I make websites, I make software, and I make good decisions. I know web fundamentals inside-out. As for tools, I use Eleventy, a robust and extendible static-site generator; I use Vue, a powerful front-end framework; and I use Python to suuplement my work, with powerful scripting."
+text = "I make websites, I make software, and I make good decisions. I know web fundamentals inside-out. As for tools, I use Eleventy, a robust and extendible static-site generator; I use Vue, a powerful front-end framework; and I use Python to supplement my work, with powerful scripting."
 [wwwww.where]
 question = "can you find me?"
 text = "Usually around GitHub..! Or many more places across the web. But, your literal answer is... right here on this website!"
