@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "spellcheck": "cspell \"_data\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "clean-css": "^5.3.3",
+    "cspell": "^8.3.0",
     "toml": "^3.0.0"
   }
 }

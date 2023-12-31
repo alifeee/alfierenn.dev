@@ -6,7 +6,7 @@ email = "alfie@alfierenn.dev"
 github = "alifeee"
 
 [browser-meta]
-tabtitle = "Alfie Renn"
+tab-title = "Alfie Renn"
 description = "Alfie Renn's developer portfolio"
 og-title = "Alfie Renn's developer portfolio"
 og-description = "Alfie Renn's developer portfolio"
@@ -14,8 +14,8 @@ og-url = "https://alfierenn.dev"
 og-image = "https://alfierenn.dev/og-image.png"
 
 [image]
-src = "/alfie-renn-headshot.jpg"
-alt = "headshot of Alfie Renn"
+src = "/alfie-renn.jpg"
+alt = "head shot of Alfie Renn"
 width = 800
 height = 800
 

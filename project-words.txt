@@ -1,0 +1,13 @@
+# Do not spellcheck these words with `npm run test`
+Alfie
+Alexandre
+alifeee
+Eleventy
+Lavigne
+lipu
+Mayock
+O'Keefe
+Renn
+Renn's
+strib
+tenpo
