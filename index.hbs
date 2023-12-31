@@ -42,7 +42,8 @@
       <a href="mailto:{{email}}">{{email}}</a>
     </header>
     <main>
-      <section class="wwwww">
+      <section id="wwwww">
+        <div class="wwwww">
         {{#each wwwww}}
         <article>
           <h2 id="{{@key}}">{{@key}}</h2>
@@ -50,9 +51,11 @@
           <p>{{{text}}}</p>
         </article>
         {{/each}}
+        </div>
       </section>
-      <h2 id="portfolio">Websites I've made</h2>
-      <section class="portfolio">
+      <section id="portfolio">
+        <h2>Websites I've made</h2>
+        <div class="portfolio">
         {{#each portfolio.sites}}
         <article>
           <h3>{{title}}</h3>
@@ -67,9 +70,11 @@
           </div>
         </article>
         {{/each}}
+        </div>
       </section>
-      <h2 id="testimonials">Testimonials</h2>
-      <section class="testimonials">
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
         {{#each testimonials}}
         <article>
           <p>{{text}}</p>
@@ -81,6 +86,7 @@
           {{/if}}
         </article>
         {{/each}}
+        </div>
       </section>
     </main>
     <footer>
