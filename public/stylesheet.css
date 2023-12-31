@@ -275,9 +275,11 @@ header .subtitle {
 .testimonials {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .testimonials article {
   flex: 1 0 15rem;
+  max-width: 20rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
