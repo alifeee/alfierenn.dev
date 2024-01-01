@@ -2,6 +2,28 @@ const toml = require("@iarna/toml");
 let handlebars = require("handlebars");
 const fs = require("fs");
 const CleanCSS = require("clean-css");
+const Image = require("@11ty/eleventy-img");
+
+function imageShortcode(src, cls, alt, sizes, widths) {
+  let options = {
+    widths: widths,
+    formats: ["jpeg"],
+  };
+
+  // generate images, while this is async we don’t wait
+  Image(src, options);
+
+  let imageAttributes = {
+    class: cls,
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+  // get metadata even if the images are not fully generated yet
+  let metadata = Image.statsSync(src, options);
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 // .eleventy.js
 module.exports = function (eleventyConfig) {
@@ -33,6 +55,9 @@ module.exports = function (eleventyConfig) {
     "serve",
     () => process.env.ELEVENTY_RUN_MODE === "serve"
   );
+
+  // image shortcode
+  eleventyConfig.addShortcode("image", imageShortcode);
 
   eleventyConfig.setLibrary("hbs", handlebars);
 };
