@@ -43,13 +43,14 @@
   <body>
     <header>
       {{#with image}}
-      <img
+      {{!-- <img
         class="image"
         src="{{src}}"
         alt="{{alt}}"
         width="{{width}}px"
         height="{{height}}px"
-      />
+      /> --}}
+      {{image "./public/alfie-renn.jpg" "" "alt" "" [300]}}
       {{/with}}
       <h1 class="name">{{name}}</h1>
       <h2 class="subtitle">{{subtitle}}</h2>
