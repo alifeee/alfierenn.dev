@@ -64,9 +64,11 @@
       {{#with image}}
         {{{eleventyimage src "image" alt width}}}
       {{/with}}
-      <h1 class="name">{{name}}</h1>
-      <h2 class="subtitle">{{subtitle}}</h2>
-      <a href="mailto:{{email}}">{{email}}</a>
+      <section class="info">
+        <h1 class="name">{{name}}</h1>
+        <h2 class="subtitle">{{subtitle}}</h2>
+        <a href="mailto:{{email}}">{{email}}</a>
+      </section>
     </header>
     <main>
       <section id="wwwww">
