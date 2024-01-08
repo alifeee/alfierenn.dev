@@ -157,7 +157,7 @@ header .subtitle {
   background-repeat: repeat-x;
   background-position: bottom;
   position: absolute;
-  top: -30px;
+  top: -29px;
   left: 0;
 }
 #portfolio::after {
@@ -169,7 +169,7 @@ header .subtitle {
   background-repeat: repeat-x;
   background-position: bottom;
   position: absolute;
-  bottom: -30px;
+  bottom: -29px;
   right: 0;
   transform: rotate(180deg);
 }
