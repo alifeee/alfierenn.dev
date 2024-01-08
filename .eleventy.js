@@ -27,7 +27,6 @@ function imageShortcode(src, cls, alt, ...allwidths) {
     loading: "lazy",
     decoding: "async",
   };
-  console.log(metadata);
   return Image.generateHTML(metadata, imageAttributes);
 }
 

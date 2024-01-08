@@ -39,6 +39,25 @@
     <!-- scripts -->
     <script data-goatcounter="https://alfierenndev.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+    <script>
+      // scroll portfolio on click
+      function portfolioLeft() {
+        const portfolio = document.querySelector("#portfolio .portfolio");
+        let screenwidth = window.innerWidth;
+        portfolio.scroll({
+          left: portfolio.scrollLeft - screenwidth + 100,
+          behavior: "smooth",
+        })
+      }
+      function portfolioRight() {
+        const portfolio = document.querySelector("#portfolio .portfolio");
+        let screenwidth = window.innerWidth;
+        portfolio.scroll({
+          left: portfolio.scrollLeft + screenwidth - 100,
+          behavior: "smooth",
+        })
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -63,21 +82,28 @@
       </section>
       <section id="portfolio">
         <h2>Websites I've made</h2>
-        <div class="portfolio">
-          {{#each portfolio.sites}}
-          <article>
-            <h3>{{title}}</h3>
-            {{#if link}}
-            <a target="_blank" href="{{link}}">{{niceLink link}}</a>
-            {{/if}}
-            <p>{{description}}</p>
-            <div class="tools">
-              {{#each tools}}
-              <span>{{this}}</span>
-              {{/each}}
-            </div>
-          </article>
-          {{/each}}
+        <div class="scroller">
+          <div class="portfolio">
+            {{#each portfolio.sites}}
+            <article>
+              <h3>{{title}}</h3>
+              {{#if link}}
+              <a target="_blank" href="{{link}}">{{niceLink link}}</a>
+              {{/if}}
+              {{#with image}}
+              {{{eleventyimage src "" alt width}}}
+              {{/with}}
+              <p>{{description}}</p>
+              <div class="tools">
+                {{#each tools}}
+                <span>{{this}}</span>
+                {{/each}}
+              </div>
+            </article>
+            {{/each}}
+          </div>
+          <button class="left" onclick="portfolioLeft()">&lt;</button>
+          <button class="right" onclick="portfolioRight()">&gt;</button>
         </div>
       </section>
       <section id="testimonials">
