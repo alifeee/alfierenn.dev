@@ -23,5 +23,8 @@
     "clean-css": "^5.3.3",
     "cspell": "^8.3.0",
     "toml": "^3.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^3.1.8"
   }
 }

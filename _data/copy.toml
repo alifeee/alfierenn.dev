@@ -14,7 +14,7 @@ og-url = "https://alfierenn.dev"
 og-image = "https://alfierenn.dev/og-image.png"
 
 [image]
-src = "/alfie-renn.jpg"
+src = "./public/alfie-renn.jpg"
 alt = "head shot of Alfie Renn"
 width = 800
 height = 800
@@ -43,11 +43,19 @@ title = "lipu tenpo Website"
 description = "A content hosting website for a community made magazine"
 tools = ["Eleventy", "HTML/CSS/JS"]
 link = "https://liputenpo.alifeee.co.uk"
+[portfolio.sites.image]
+src = "./public/portfolio_lipu-tenpo.png"
+alt = "screenshot of lipu tenpo website"
+width = 675
 [[portfolio.sites]]
 title = "Personal Blog"
 description = "Static site with interactive comments and automated components, including filtering tags, reading time, and suggested posts"
 link = "https://blog.alifeee.co.uk"
 tools = ["HTML", "CSS", "JS"]
+[portfolio.sites.image]
+src = "./public/portfolio_blog.png"
+alt = "screenshot of blog"
+width = 863
 [[portfolio.sites]]
 title = "Embedded lighting controller (web app)"
 description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
@@ -57,14 +65,22 @@ title = "CV"
 description = "My CV on the web, with automatic deployment, version control, and responsive design"
 tools = ["HTML", "CSS", "JS"]
 link = "https://cv.alfierenn.dev"
+[portfolio.sites.image]
+src = "./public/portfolio_cv.png"
+alt = "screenshot of CV"
+width = 1067
 [[portfolio.sites]]
 title = "Physics Society Webpage"
 description = "Responsive and easy to edit website for the Durham University Physics Society"
 tools = ["HTML", "CSS", "JS"]
 link = "https://alifeee.co.uk/physsoc"
+[portfolio.sites.image]
+src = "./public/portfolio_duphyssoc.png"
+alt = "screenshot of Durham University Physics Society website"
+width = 818
 [[portfolio.sites]]
 title = "Annual Leave Visualiser (web app)"
-description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files."
+description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files"
 tools = ["Flutter"]
 
 [[testimonials]]
