@@ -14,7 +14,7 @@ og-url = "https://alfierenn.dev"
 og-image = "https://alfierenn.dev/og-image.png"
 
 [image]
-src = "/alfie-renn.jpg"
+src = "./public/alfie-renn.jpg"
 alt = "head shot of Alfie Renn"
 width = 800
 height = 800

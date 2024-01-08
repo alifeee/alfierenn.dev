@@ -4,24 +4,30 @@ const fs = require("fs");
 const CleanCSS = require("clean-css");
 const Image = require("@11ty/eleventy-img");
 
-function imageShortcode(src, cls, alt, sizes, widths) {
+function imageShortcode(src, cls, alt, ...allwidths) {
+  // remove last width element
+  let widths = allwidths.slice(0, -1);
+
   let options = {
     widths: widths,
     formats: ["jpeg"],
+    urlPath: "/images/",
+    outputDir: "./_site/images/",
   };
 
   // generate images, while this is async we don’t wait
   Image(src, options);
+  // get metadata even if the images are not fully generated yet
+  let metadata = Image.statsSync(src, options);
 
   let imageAttributes = {
     class: cls,
     alt,
-    sizes,
+    sizes: "", // I do not use sizes because I don't know what it is
     loading: "lazy",
     decoding: "async",
   };
-  // get metadata even if the images are not fully generated yet
-  let metadata = Image.statsSync(src, options);
+  console.log(metadata);
   return Image.generateHTML(metadata, imageAttributes);
 }
 
@@ -57,7 +63,7 @@ module.exports = function (eleventyConfig) {
   );
 
   // image shortcode
-  eleventyConfig.addShortcode("image", imageShortcode);
+  eleventyConfig.addShortcode("eleventyimage", imageShortcode);
 
   eleventyConfig.setLibrary("hbs", handlebars);
 };
