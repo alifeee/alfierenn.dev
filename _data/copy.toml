@@ -40,7 +40,7 @@ text = "That depends entirely on what you want and what you have already. Let's 
 
 [[portfolio.sites]]
 title = "lipu tenpo Website"
-description = "A content hosting website for a community made magazine"
+description = "A static content hosting website for a community made magazine, with user-friendly configuration and modern HTML standards of design and accessibility"
 tools = ["Eleventy", "HTML/CSS/JS"]
 link = "https://liputenpo.alifeee.co.uk"
 [portfolio.sites.image]
