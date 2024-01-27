@@ -9,7 +9,7 @@ Hi! I'm Alfie! I am writing to apply for the Treehouse team, as advertised on [w
 
 1. [PREVIOUS EXPERIENCE](#previous-experience)
    1. [I am dependable](#i-am-dependable)
-   2. [I am very hospitable](#i-am-very-hospitable)
+   2. [I have experience helping at board game socials](#i-have-experience-helping-at-board-game-socials)
    3. [I am an organiser](#i-am-an-organiser)
 2. [RELATIONSHIP WITH BOARD GAMES](#relationship-with-board-games)
    1. [Games good for introducing people to each other](#games-good-for-introducing-people-to-each-other)
@@ -17,8 +17,7 @@ Hi! I'm Alfie! I am writing to apply for the Treehouse team, as advertised on [w
    3. [Games requiring thought](#games-requiring-thought)
 3. [WHY THE TREEHOUSE?](#why-the-treehouse)
    1. [I love Board game cafés](#i-love-board-game-cafés)
-   2. [It's a third space!](#its-a-third-space)
-   3. [What I already do for money](#what-i-already-do-for-money)
+   2. [What I already do for money](#what-i-already-do-for-money)
 
 ## PREVIOUS EXPERIENCE
 
@@ -30,18 +29,16 @@ I am a fast-learner, and very motivated to learn. This manifests itself in my lo
 
 As well as previous employment as a software developer in a fast-paced and high-pressure environment, I currently volunteer at BHF, a charity shop. While there, I must be social with the team and customers, as well as becoming adept in the tasks needed to get on smoothly.
 
-### I am very hospitable
-
-I enjoy being in social spaces. For example, I spend a lot of time at Sheffield Hackspace, which is a community-run venture. As such, at dedicated social evenings, there are always new people arriving to check it out, and I go out of my way to make them to feel welcome at their first time in the space.
+### I have experience helping at board game socials
 
 Last year, I lived in Birmingham, where I was a regular at my local board game café's Monday Social Nights (Chance & Counters, Digbeth).
 After getting to know the people who worked there, I took an active role in the community, and was invited to help run the events, by greeting new people who had not been before, helping them say hi to others at the event, and suggesting games for groups to play together.
 
+I enjoy being in social spaces. For example, I spend a lot of time at Sheffield Hackspace, which is a community-run venture. As such, at dedicated social evenings, there are always new people arriving to check it out, and I go out of my way to make them to feel welcome at their first time in the space.
+
 ### I am an organiser
 
-I get great joy from getting to see people interact, and from facilitating that interaction by organising recurring events. In the past years I have been organising weekly sessions for around 10-15 people to play video games like Barotrauma and Factorio together, hosting a collaborative environment they would not be able to have otherwise.
-
-I am also proud of a board games club that I started in my sixth form college that ran for the two years that I was there. I got a lot of enjoyment from trying to pick which games that I felt would be most enjoyed by the specific group of people that turned up.
+I get great joy from getting to see people interact, and from facilitating that interaction by organising recurring events, like my book club, and a board game club I started at sixth form. In the past years I have been organising weekly sessions for up to 15 people to play video games like Barotrauma and Factorio together, hosting a collaborative environment they would not be able to have otherwise.
 
 ## RELATIONSHIP WITH BOARD GAMES
 
@@ -74,17 +71,13 @@ Wherever I visit in the UK, I like to go to the local board game café, and I do
 
 A phrase my friends hear a lot from me is "I only ever want to live in cities that have a board game café". I love board games a lot and have a small collection, but I have a deeper fondness for board game cafés, because they make the hobby affordable and visible for everyone, and there is nothing better than seeing a highly used board game box, as proof of the expanse of love that it has given everyone that has played it.
 
-### It's a third space!
-
-I love third spaces so much that I have written a blog about them ([blog.alifeee.co.uk/what-is-a-third-space/](https://blog.alifeee.co.uk/what-is-a-third-space/)). In brief, they are a place where people meet up and can make new social connections, and I believe board game cafés fill this brief.
-
-I spend a lot of time in third spaces, and (as I write above about the hackspace) enjoy greatly the ability to greet new faces often and make people feel welcome. I would love to have the opportunity to do this at The Treehouse, as it seems to me like a very social enterprise with lots of social events, and opportunity to make everyone feel welcome.
+I believe board game cafés are third spaces, a concept I love so much that I have written a blog about it ([blog.alifeee.co.uk/what-is-a-third-space/](https://blog.alifeee.co.uk/what-is-a-third-space/)). In brief, they are a place where people meet up and can make new social connections. I spend a lot of time in third spaces, and enjoy greatly the ability to greet new faces often and make people feel welcome. I would love to have the opportunity to do this at The Treehouse, as it seems to me like a very social enterprise with lots of social events, and opportunity to make everyone feel welcome.
 
 ### What I already do for money
 
 I am a freelance web developer. This is a career that involves a lot of networking and being very social in order to find work, which I enjoy a lot. Being freelance also allows me a level of flexibility whenever required, to decrease or increase my workload, and be flexible with when I work. In this way, I am very able to start a part-time position, and I would love the opportunity to work in a social environment where I can help everyone have a great time at the café.
 
-Thank you very much for your time and consideration. I look forward greatly to hearing back from you.
+Thank you for your time. I look forward to hearing back from you!
 
 Alfie Renn
 
