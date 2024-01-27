@@ -62,18 +62,18 @@ I have to include this category, and I love to play them too. These are games th
 
 ## WHY THE TREEHOUSE?
 
-I live in Sheffield full-time, having moved in mid-2023. It already seems to me like a great place to live! I live fairly close to The Treehouse and I have been several times and greatly enjoyed it.
+I live in Sheffield full-time, having moved in mid 2023. It already seems to me like a great place to live! I live close to The Treehouse, and have been several times and greatly enjoyed it.
 
 Recommending board games, and helping everyone around me feel comfortable and have fun is what I do as a hobby, so I would more than love the opportunity to do it professionally!
 I have worked with and socialised with people from all walks of life (even southerners), which provides me immense value and enjoyment. I think this is a great opportunity for more of that.
 
-Wherever I visit in the UK, I like to go to the local board game café, and I do believe that everyone I've met working at these places have been some of the friendliest people I've met. I would love the opportunity to work with you at the Treehouse, and to as-well eventually fall under this description myself.
+Wherever I visit in the UK, I like to go to the local board game café, and I do believe that everyone I've met working at these places have been some of the friendliest people I've met. I would love the opportunity to work with you at the Treehouse, and to fall under this description myself.
 
 ### I love Board game cafés
 
-A phrase my friends hear a lot from me is "I only ever want to live in cities that have a board game café". I love board games a lot and have a small collection, but I have a deeper fondness for board game cafés, because they make the hobby affordable and visible for everyone, and there is nothing better than seeing a highly used board game box, as proof of the expanse of love that it has given everyone that has played it.
+A phrase my friends hear a lot from me is "I only ever want to live in cities that have a board game café". I love board games a lot and have a small collection, but I have a deeper fondness for board game cafés, because they make the hobby affordable and visible for everyone, and there is nothing better than seeing a highly used board game box, as proof of the love that it has given everyone that has played it.
 
-I believe board game cafés are third spaces, a concept I love so much that I have written a blog about it ([blog.alifeee.co.uk/what-is-a-third-space/](https://blog.alifeee.co.uk/what-is-a-third-space/)). In brief, they are a place where people meet up and can make new social connections. I spend a lot of time in third spaces, and enjoy greatly the ability to greet new faces often and make people feel welcome. I would love to have the opportunity to do this at The Treehouse, as it seems to me like a very social enterprise with lots of social events, and opportunity to make everyone feel welcome.
+I believe board game cafés are third spaces, a concept I love so much that I have written a blog about it ([blog.alifeee.co.uk/what-is-a-third-space/](https://blog.alifeee.co.uk/what-is-a-third-space/)). In brief, places where people meet up and make new social connections. I spend a lot of time in third spaces, and greatly enjoy the ability to greet new faces often and make everyone feel welcome. I would love to have the opportunity to do this at The Treehouse, as it seems to me like a very social enterprise with lots of social events, and plenty of opportunity to help all feel welcome.
 
 ### What I already do for money
 
