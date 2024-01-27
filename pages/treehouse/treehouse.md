@@ -7,6 +7,8 @@ layout: treehouse
 
 Hi! I'm Alfie! I am writing to apply for the Treehouse team, as advertised on [www.treehousesheffield.com/jobs](https://www.treehousesheffield.com/jobs). Below I explain why I am a good fit. Please find my CV attached, or online on [cv.alfierenn.dev](https://cv.alfierenn.dev/). Also find a copy of this cover letter online at [alfierenn.dev/treehouse/](https://alfierenn.dev/treehouse/).
 
+<div id="qr-section"></div>
+
 1. [PREVIOUS EXPERIENCE](#previous-experience)
    1. [I am dependable](#i-am-dependable)
    2. [I have experience helping at board game socials](#i-have-experience-helping-at-board-game-socials)
