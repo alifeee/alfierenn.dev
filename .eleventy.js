@@ -3,6 +3,7 @@ let handlebars = require("handlebars");
 const fs = require("fs");
 const CleanCSS = require("clean-css");
 const Image = require("@11ty/eleventy-img");
+const markdownItAnchor = require("markdown-it-anchor");
 
 function imageShortcode(src, cls, alt, ...allwidths) {
   // remove last width element
@@ -63,6 +64,14 @@ module.exports = function (eleventyConfig) {
 
   // image shortcode
   eleventyConfig.addShortcode("eleventyimage", imageShortcode);
+
+  // add ids to headings
+  // this works because Eleventy also installs markdown-it
+  const markdownIt = require("markdown-it");
+  // create a new markdown-it instance with the plugin
+  const markdownLib = markdownIt({ html: true }).use(markdownItAnchor);
+  // replace the default markdown-it instance
+  eleventyConfig.setLibrary("md", markdownLib);
 
   eleventyConfig.setLibrary("hbs", handlebars);
 };

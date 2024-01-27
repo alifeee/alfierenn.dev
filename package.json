@@ -22,6 +22,7 @@
     "@11ty/eleventy": "^2.0.1",
     "clean-css": "^5.3.3",
     "cspell": "^8.3.0",
+    "markdown-it-anchor": "^8.6.7",
     "toml": "^3.0.0"
   },
   "dependencies": {
