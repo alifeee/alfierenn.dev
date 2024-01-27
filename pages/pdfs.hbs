@@ -1,0 +1,19 @@
+---
+permalink: /pdfs/
+---
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <h1>pdfs!</h1>
+    <nav>
+        <ul>
+            {{#each collections.pdfs}}
+            <li>
+                <a href="{{this}}">{{this}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </nav>
+</body>
