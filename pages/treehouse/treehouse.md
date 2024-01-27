@@ -81,8 +81,4 @@ I am a freelance web developer. This is a career that involves a lot of networki
 
 Thank you for your time. I look forward to hearing back from you!
 
-Alfie Renn
-
-[alfie@alfierenn.dev](mailto:alfie@alfierenn.dev)
-
-[linktr.ee/alifeee](https://linktr.ee/alifeee)
+Alfie Renn · [alfie@alfierenn.dev](mailto:alfie@alfierenn.dev) · [linktr.ee/alifeee](https://linktr.ee/alifeee)
