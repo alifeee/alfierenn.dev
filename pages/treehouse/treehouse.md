@@ -106,7 +106,7 @@ I am a freelance web developer. This is a career that involves a lot of networki
 ### Why I want to work here
 
 Recommending board games, and helping everyone around me feel comfortable and have fun is what I do as a hobby, so I would more than love the opportunity to do it professionally!
-I have worked with and socialised with people from all walks of like (even southerners), which provides me immense value and enjoyment. I think this is a great opportunity for more of that.
+I have worked with and socialised with people from all walks of life (even southerners), which provides me immense value and enjoyment. I think this is a great opportunity for more of that.
 
 Wherever I visit in the UK, I like to go to the local board game café, and I do believe that everyone I've met working at these places have been some of the friendliest people I've met. I would love the opportunity to work with you at the Treehouse, and to as-well eventually fall under this description myself.
 
