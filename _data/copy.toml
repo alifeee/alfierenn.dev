@@ -84,15 +84,19 @@ description = "Web app to visualist when employees had holidays booked, showing 
 tools = ["Flutter"]
 
 [[testimonials]]
+text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
+quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
+source = "Viper RF"
+link = "https://www.viper-rf.com/"
+[[testimonials]]
 text = "This is very neat thank you for this contribution."
 quoter = "Alexandre Lavigne"
 source = "open-source pull request"
 link = "https://github.com/burnash/gspread/pull/1187#pullrequestreview-1451621771"
 [[testimonials]]
-text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
-quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
-source = "Viper RF"
-link = "https://www.viper-rf.com/"
+text = "Alfie was great at explaining web fundamentals in terms I understood. I can now edit content on the website he set up for me, thanks to his help and guidance. He even gave small tasks and suggestions for me to help me build up my own web development knowledge."
+quoter = "Sebastian"
+source = "Artist"
 [[testimonials]]
 text = "Thanks @strib and. @alifeee - very good team work!!!!"
 quoter = "Romano Silva"
