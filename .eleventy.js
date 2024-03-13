@@ -65,6 +65,7 @@ module.exports = function (eleventyConfig) {
   // image shortcode
   eleventyConfig.addShortcode("eleventyimage", imageShortcode);
 
+  // for cover letters
   // add ids to headings
   // this works because Eleventy also installs markdown-it
   const markdownIt = require("markdown-it");
@@ -72,6 +73,11 @@ module.exports = function (eleventyConfig) {
   const markdownLib = markdownIt({ html: true }).use(markdownItAnchor);
   // replace the default markdown-it instance
   eleventyConfig.setLibrary("md", markdownLib);
+  // copy all pdfs from /pages/thing/pdf.pdf to /thing/pdf.pdf
+  eleventyConfig.addPassthroughCopy({ "pages/**/*.pdf": "pdfs" });
+  eleventyConfig.addCollection("pdfs", function (collectionApi) {
+    return ["Alfie Renn - Treehouse cover letter.pdf"];
+  });
 
   eleventyConfig.setLibrary("hbs", handlebars);
 };

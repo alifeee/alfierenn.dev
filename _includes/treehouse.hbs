@@ -31,6 +31,16 @@
             }
             main p {
                 text-align: justify;
+                text-indent: 2rem;
+            }
+            main p:nth-last-child(2) {
+                margin-top: 2rem;
+                text-align: center;
+                text-indent: initial;
+            }
+            main p:nth-last-child(1) {
+                text-indent: initial;
+                text-align: center;
             }
             main h1, h2, h3 {
                 text-align: center;
@@ -46,9 +56,12 @@
                 background-color: white;
                 margin: 1rem 0;
             }
+            #qr-section {
+                display: none;
+            }
             @page {
                 size: A4;
-                margin: 1cm;
+                margin: 0.75cm;
             }
             @media print {
                 body {
@@ -69,8 +82,8 @@
                     margin: 0;
                 }
                 h1 {
-                    font-size: 3rem;
-                    margin: 1rem 0;
+                    font-size: 2.5rem;
+                    margin: 0 6rem 1rem;
                 }
                 h2 {
                     margin: 1rem 0;
@@ -84,6 +97,10 @@
                 }
                 p {
                     margin: 0.25rem;
+                }
+                #qr-section {
+                    display: block;
+                    margin: 10rem 0;
                 }
             }
         </style>
