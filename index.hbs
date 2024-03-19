@@ -90,7 +90,7 @@
             <article>
               <h3 id="{{title}}">{{title}}</h3>
               {{#if link}}
-              <a target="_blank" href="{{link}}">{{niceLink link}}</a>
+              <a href="{{link}}">{{niceLink link}}</a>
               {{/if}}
               {{#with image}}
               {{{eleventyimage src "" alt width}}}
@@ -116,7 +116,7 @@
             <p>{{text}}</p>
             <span class="quoter">{{quoter}},</span>
             {{#if link}}
-            <a target="_blank" href="{{link}}"><span class="source">{{source}}</span></a>
+            <a href="{{link}}"><span class="source">{{source}}</span></a>
             {{else}}
             <span class="source">{{source}}</span>
             {{/if}}
@@ -134,7 +134,7 @@
         </div>
         <div class="github">
           <span>github: </span>
-          <a target="_blank" href="https://github.com/{{github}}">
+          <a href="https://github.com/{{github}}">
             {{github}}
           </a>
         </div>
