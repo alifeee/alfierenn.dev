@@ -62,7 +62,8 @@
   <body>
     <header>
       {{#with image}}
-        {{{eleventyimage src "image" alt width}}}
+        <img class="image" src="{{src}}" alt="{{alt}}" width="{{width}}">
+        {{!-- {{{eleventyimage src "image" alt width}}} --}}
       {{/with}}
       <section class="info">
         <h1 id="name" class="name">{{name}}</h1>
@@ -93,7 +94,8 @@
               <a href="{{link}}">{{niceLink link}}</a>
               {{/if}}
               {{#with image}}
-              {{{eleventyimage src "" alt width}}}
+              <img src="{{src}}" alt="{{alt}}" width="{{width}}">
+              {{!-- {{{eleventyimage src "" alt width}}} --}}
               {{/with}}
               <p>{{description}}</p>
               <div class="tools">

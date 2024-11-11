@@ -11,10 +11,10 @@ description = "Alfie Renn's developer portfolio"
 og-title = "Alfie Renn's developer portfolio"
 og-description = "Alfie Renn's developer portfolio"
 og-url = "https://alfierenn.dev"
-og-image = "https://alfierenn.dev/og-image.png"
+og-image = "https://alfierenn.dev/alfie-renn.jpg"
 
 [image]
-src = "./public/alfie-renn.jpg"
+src = "/alfie-renn.webp"
 alt = "head shot of Alfie Renn"
 width = 800
 height = 800
@@ -44,7 +44,7 @@ description = "A static content hosting website for a community made magazine, w
 tools = ["Eleventy", "HTML/CSS/JS"]
 link = "https://liputenpo.org"
 [portfolio.sites.image]
-src = "./public/portfolio_lipu-tenpo.png"
+src = "/portfolio_lipu-tenpo.webp"
 alt = "screenshot of lipu tenpo website"
 width = 675
 [[portfolio.sites]]
@@ -53,7 +53,7 @@ description = "Responsive and easy to edit website for the Durham University Phy
 tools = ["HTML", "CSS", "JS"]
 link = "https://alifeee.co.uk/physsoc"
 [portfolio.sites.image]
-src = "./public/portfolio_duphyssoc.png"
+src = "/portfolio_duphyssoc.webp"
 alt = "screenshot of Durham University Physics Society website"
 width = 818
 [[portfolio.sites]]
@@ -62,7 +62,7 @@ description = "Static site with interactive comments and automated components, i
 link = "https://blog.alifeee.co.uk"
 tools = ["HTML", "CSS", "JS"]
 [portfolio.sites.image]
-src = "./public/portfolio_blog.png"
+src = "/portfolio_blog.webp"
 alt = "screenshot of blog"
 width = 863
 [[portfolio.sites]]
@@ -71,7 +71,7 @@ description = "My CV on the web, with automatic deployment, version control, and
 tools = ["HTML", "CSS", "JS"]
 link = "https://cv.alfierenn.dev"
 [portfolio.sites.image]
-src = "./public/portfolio_cv.png"
+src = "/portfolio_cv.webp"
 alt = "screenshot of CV"
 width = 1067
 [[portfolio.sites]]
