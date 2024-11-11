@@ -12,3 +12,4 @@ Renn's
 strib
 tenpo
 duphyssoc
+webp
