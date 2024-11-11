@@ -84,10 +84,9 @@ description = "Web app to visualist when employees had holidays booked, showing 
 tools = ["Flutter"]
 
 [[testimonials]]
-text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
-quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
-source = "Viper RF"
-link = "https://www.viper-rf.com/"
+text = "Alfie was extremely helpful and supportive with our local charity. He was generous with advice & suggestions when we hit a tech glitch and has the knack for explaining options & actions very clearly and effectively."
+quoter = "Susanna"
+source = "local charity"
 [[testimonials]]
 text = "This is very neat thank you for this contribution."
 quoter = "Alexandre Lavigne"
@@ -102,3 +101,8 @@ text = "Thanks @strib and. @alifeee - very good team work!!!!"
 quoter = "Romano Silva"
 source = "open-source pull request"
 link = "https://github.com/keyteki/keyteki/pull/3222#issuecomment-1589734669"
+[[testimonials]]
+text = "We were very impressed with Alfie's outstanding contribution to our business in a relatively short period. He demonstrated extremely high intelligence, organisation, good technical communication skills, work ethic, and a positive attitude."
+quoter = "Jim Mayock & Matthew O'Keefe, PhD, MBA"
+source = "Viper RF"
+link = "https://www.viper-rf.com/"
