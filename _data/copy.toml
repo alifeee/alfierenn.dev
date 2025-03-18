@@ -38,6 +38,7 @@ text = "I love the Internet! I think it is such a great opportunity that we have
 question = "will I do what you want?"
 text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together :)"
 
+# "your site here"
 [[portfolio.sites]]
 title = "…your website here!"
 description = "whether you want a simple site, help with lots of data, or just to chat, get in contact! <br> <a href='mailto:alfie@alfierenn.dev'>alfie@alfierenn.dev</a>"
@@ -47,6 +48,8 @@ link = ""
 src = "./portfolio_your-site-here.svg"
 alt = "template website"
 width = 1101
+
+# chipex
 [[portfolio.sites]]
 title = "Dynamic Content Delivery"
 description = "Development and upkeep of a bespoke PHP plugin enabling dynamic product content for WordPress, as well as programmatic integrations with common WordPress plugins like WooCommerce and Yoast SEO."
@@ -62,7 +65,7 @@ description = "Maintaining an extensive database of tens of thousands of vehicle
 tools = ["Database", "SQL", "CSV", "Python"]
 link = ""
 [portfolio.sites.image]
-src = "./portfolio_chipex-sitemap.png"
+src = "./portfolio_chipex-sitemap.webp"
 alt = "screenshot of Chipex website sitemap"
 width = 907
 [[portfolio.sites]]
@@ -74,6 +77,8 @@ link = ""
 src = "./portfolio_chipex-colours-list.webp"
 alt = "screenshot of Chipex website"
 width = 907
+
+# lipu tenpo
 [[portfolio.sites]]
 title = "lipu tenpo Website"
 description = "A static content hosting website for a community made magazine, with user-friendly configuration and modern HTML standards of design and accessibility"
@@ -83,6 +88,30 @@ link = "https://liputenpo.org"
 src = "/portfolio_lipu-tenpo.webp"
 alt = "screenshot of lipu tenpo website"
 width = 675
+
+# joybank
+[[portfolio.sites]]
+title = "Sheffield Joybank"
+description = "Helped migrate an existing Google site to a new domain, allowing a website for a local charity to be more searchable on the Web."
+tools = ["DNS", "Google Sites"]
+link = "https://www.joybank.co.uk/"
+[portfolio.sites.image]
+src = "/portfolio_joybank.webp"
+alt = "screenshot of joybank website"
+width = 915
+
+# sheffield hackspace
+[[portfolio.sites]]
+title = "Sheffield Hackspace"
+description = "Managing and creating blog content for a Hugo static site, as well as providing good documentation on how others can contribute to the blog."
+tools = ["Hugo", "Blog", "Static site"]
+link = "https://www.sheffieldhackspace.org.uk/"
+[portfolio.sites.image]
+src = "/portfolio_sheffield-hackspace.webp"
+alt = "screenshot of sheffield hackspace website"
+width = 915
+
+# physics society
 [[portfolio.sites]]
 title = "Physics Society Webpage"
 description = "Responsive and easy to edit website for the Durham University Physics Society"
@@ -92,6 +121,8 @@ link = "https://alifeee.co.uk/physsoc"
 src = "/portfolio_duphyssoc.webp"
 alt = "screenshot of Durham University Physics Society website"
 width = 818
+
+# personal blog
 [[portfolio.sites]]
 title = "Personal Blog"
 description = "Static site with interactive comments and automated components, including filtering tags, reading time, and suggested posts"
@@ -101,6 +132,8 @@ tools = ["HTML", "CSS", "JS"]
 src = "/portfolio_blog.webp"
 alt = "screenshot of blog"
 width = 863
+
+# my CV
 [[portfolio.sites]]
 title = "CV"
 description = "My CV on the web, with automatic deployment, version control, and responsive design"
@@ -110,6 +143,7 @@ link = "https://cv.alfierenn.dev"
 src = "/portfolio_cv.webp"
 alt = "screenshot of CV"
 width = 1067
+
 # [[portfolio.sites]]
 # title = "Embedded lighting controller (web app)"
 # description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
