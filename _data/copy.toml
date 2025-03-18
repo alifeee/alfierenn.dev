@@ -39,6 +39,42 @@ question = "will I do what you want?"
 text = "That depends entirely on what you want and what you have already. Let's talk about it and share ideas together :)"
 
 [[portfolio.sites]]
+title = "…your website here!"
+description = "whether you want a simple site, help with lots of data, or just to chat, get in contact! <br> <a href='mailto:alfie@alfierenn.dev'>alfie@alfierenn.dev</a>"
+tools = ["anything you want"]
+link = ""
+[portfolio.sites.image]
+src = "./portfolio_your-site-here.svg"
+alt = "template website"
+width = 1101
+[[portfolio.sites]]
+title = "Dynamic Content Delivery"
+description = "Development and upkeep of a bespoke PHP plugin enabling dynamic product content for WordPress, as well as programmatic integrations with common WordPress plugins like WooCommerce and Yoast SEO."
+tools = ["PHP", "Backend Development"]
+link = ""
+[portfolio.sites.image]
+src = "./portfolio_chipex-bikes-list.webp"
+alt = "screenshot of Chipex website"
+width = 1101
+[[portfolio.sites]]
+title = "Database Management"
+description = "Maintaining an extensive database of tens of thousands of vehicle paint colours, including keeping it up to date, adapting the database format to the needs of the users, and ensuring a reproducible data pipeline."
+tools = ["Database", "SQL", "CSV", "Python"]
+link = ""
+[portfolio.sites.image]
+src = "./portfolio_chipex-sitemap.png"
+alt = "screenshot of Chipex website sitemap"
+width = 907
+[[portfolio.sites]]
+title = "Administrating International eCommerce Sites"
+description = "Management and upkeep of WordPress and Shopify eCommerce sites for an international brand."
+tools = ["WordPress", "Shopify", "Management"]
+link = ""
+[portfolio.sites.image]
+src = "./portfolio_chipex-colours-list.webp"
+alt = "screenshot of Chipex website"
+width = 907
+[[portfolio.sites]]
 title = "lipu tenpo Website"
 description = "A static content hosting website for a community made magazine, with user-friendly configuration and modern HTML standards of design and accessibility"
 tools = ["Eleventy", "HTML/CSS/JS"]
@@ -50,7 +86,7 @@ width = 675
 [[portfolio.sites]]
 title = "Physics Society Webpage"
 description = "Responsive and easy to edit website for the Durham University Physics Society"
-tools = ["HTML", "CSS", "JS"]
+tools = ["HTML", "CSS"]
 link = "https://alifeee.co.uk/physsoc"
 [portfolio.sites.image]
 src = "/portfolio_duphyssoc.webp"
@@ -68,20 +104,20 @@ width = 863
 [[portfolio.sites]]
 title = "CV"
 description = "My CV on the web, with automatic deployment, version control, and responsive design"
-tools = ["HTML", "CSS", "JS"]
+tools = ["HTML", "CSS"]
 link = "https://cv.alfierenn.dev"
 [portfolio.sites.image]
 src = "/portfolio_cv.webp"
 alt = "screenshot of CV"
 width = 1067
-[[portfolio.sites]]
-title = "Embedded lighting controller (web app)"
-description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
-tools = ["Vue", "HTML", "CSS", "JS"]
-[[portfolio.sites]]
-title = "Annual Leave Visualiser (web app)"
-description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files"
-tools = ["Flutter"]
+# [[portfolio.sites]]
+# title = "Embedded lighting controller (web app)"
+# description = "Fast Vue web application to control LED lights, with several pages, interactive, touch-first design, and designed with UX in mind"
+# tools = ["Vue", "HTML", "CSS", "JS"]
+# [[portfolio.sites]]
+# title = "Annual Leave Visualiser (web app)"
+# description = "Web app to visualist when employees had holidays booked, showing a list view, calendar view, and an organisation chart. Quickly updatable and reconfigurable via configuration files"
+# tools = ["Flutter"]
 
 [[testimonials]]
 text = "Alfie was extremely helpful and supportive with our local charity. He was generous with advice & suggestions when we hit a tech glitch and has the knack for explaining options & actions very clearly and effectively."

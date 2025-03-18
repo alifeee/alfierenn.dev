@@ -13,3 +13,5 @@ strib
 tenpo
 duphyssoc
 webp
+Yoast
+Chipex
