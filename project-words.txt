@@ -15,3 +15,5 @@ duphyssoc
 webp
 Yoast
 Chipex
+Joybank
+Hackspace
